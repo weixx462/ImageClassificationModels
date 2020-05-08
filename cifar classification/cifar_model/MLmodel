@@ -1,0 +1,11 @@
+flavors:
+  keras:
+    data: data
+    keras_module: keras
+    keras_version: 2.2.5
+  python_function:
+    data: data
+    env: conda.yaml
+    loader_module: mlflow.keras
+    python_version: 3.6.8
+utc_time_created: '2020-04-12 18:01:11.684609'
